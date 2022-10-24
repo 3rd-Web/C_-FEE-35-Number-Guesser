@@ -14,7 +14,7 @@ const generateTarget = () => {
 const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
   let humanGuessGap = Math.abs(secretTarget - humanGuess);
   let computerGuessGap = Math.abs(secretTarget - computerGuess);
-  if (humanGuess > 10) {
+  if (humanGuess > 9) {
     return alert(
       "You've entered an invalid number. Therefore, you lose. Please enter a number between 1-9"
     );
